@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: whitesmoke;
+   
+}
+body{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   height: 90vh;
+   background-image: url(/wallpaper28.jpg);
+   background-size: cover; 
+
+}
+.wrapper{
+   background-color: transparent;
+   width: 400px;
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   border-radius: 20px;
+   padding: 30px 40px;
+   backdrop-filter: blur(10px);
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.wrapper h1{
+   font-size: 40px;
+   text-align: center;
+}
+.wrapper .input-box{
+   /* background-color:peru;  */
+   text-align: center;
+   margin: 30px 0;
+   width: 100%;
+   height: 60px;
+   position: relative;
+}
+.input-box input{
+   width: 97%;
+   height: 100%;
+   background: transparent;
+   border: none;
+   outline: none;
+   border-radius: 40px;
+   font-size: 16px;
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   /* padding: 1px 2px 1px 1px; */
+   padding-left: 5%;
+}
+.input-box input::placeholder{
+   color:whitesmoke;
+}
+.input-box i{
+   position: absolute;
+   right: 10px;
+   top: 50%;
+   font-size: 25px;
+   transform: translateY(-50%);
+}
+.wrapper .remember-forgot{
+   display: flex;
+   justify-content: space-between;
+   font: 14px;
+   margin: -10px 0px 10px 0px;
+}
+.remember-forgot label input{
+   accent-color: #fff;
+   margin-right: 2px;
+}
+.remember-forgot a{
+   text-decoration: none;  
+   &:hover{
+       text-decoration: underline;
+   }
+}
+.wrapper .btn{
+   width: 100%;
+   color: #333;
+   border: none;
+   outline: none;
+   border-radius: 40px;
+   height: 40px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: 600;
+}
+.wrapper .new-user{
+   font-size: 14px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.new-user p a{
+   padding-left: 3px;
+   font-weight: 600;
+   text-decoration: none;
+   &:hover{
+      text-decoration: underline;
+   }
+}
